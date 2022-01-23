@@ -4,15 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3F4F5"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/layout_above"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#22FF0000"
+        android:gravity="center"
+        android:text="原生顶部"
+        android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/layout_hummer_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_middle"
+        app:layout_constraintTop_toBottomOf="@+id/layout_above" />
+
+    <TextView
+        android:id="@+id/layout_middle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#2200FF00"
+        android:gravity="center"
+        android:text="原生中部"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_hummer_2"
+        app:layout_constraintTop_toBottomOf="@+id/layout_hummer_1" />
+
+    <TextView
+        android:id="@+id/layout_hummer_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_bottom"
+        app:layout_constraintTop_toBottomOf="@+id/layout_middle" />
+
+    <TextView
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#220000FF"
+        android:gravity="center"
+        android:text="原生底部"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

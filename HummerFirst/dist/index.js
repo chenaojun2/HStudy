@@ -2,6 +2,165 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/common/CommonColor.ts":
+/*!***********************************!*\
+  !*** ./src/common/CommonColor.ts ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Color": () => (/* binding */ Color)
+/* harmony export */ });
+var Color = {
+  hm_linear_gradient: 'linear-gradient(90deg #15D0B4 #E2ED00)',
+  hm_yellow: '#E2ED00',
+  hm_green: '#15D0B4',
+  hm_blue: '#4A90E2',
+  hm_orange: '#F1CA19',
+  hm_purple: '#8484FF',
+  transparent: '#00000000',
+  black: '#000000',
+  white: '#FFFFFF',
+  red: '#FF0000',
+  green: '#00FF00',
+  blue: '#0000FF',
+  grey: '#808080',
+  light_grey: '#CCCCCC',
+  dark_grey: '#333333',
+  transparent_grey: '#00000060'
+};
+
+/***/ }),
+
+/***/ "./src/common/CommonStyle.ts":
+/*!***********************************!*\
+  !*** ./src/common/CommonStyle.ts ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Style": () => (/* binding */ Style)
+/* harmony export */ });
+/* harmony import */ var _CommonColor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CommonColor */ "./src/common/CommonColor.ts");
+
+var FullParentStyle = {
+  width: '100%',
+  height: '100%'
+};
+var CenterStyle = {
+  justifyContent: 'center',
+  alignItems: 'center'
+};
+var SmallTextStyle = {
+  fontSize: 12,
+  color: '#333333',
+  textAlign: 'center'
+};
+var RectItemStyle = {
+  width: 80,
+  height: 40,
+  backgroundColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.hm_green,
+  margin: 4
+};
+var SquareItemStyle = {
+  width: 40,
+  height: 40,
+  backgroundColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.hm_green,
+  margin: 4
+};
+var RoundItemStyle = {
+  width: 40,
+  height: 40,
+  borderRadius: 10,
+  backgroundColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.hm_green,
+  margin: 4
+};
+var CircleItemStyle = {
+  width: 40,
+  height: 40,
+  borderRadius: 20,
+  backgroundColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.hm_green,
+  margin: 4
+};
+var SelectColorItemStyle = {
+  width: 36,
+  height: 24,
+  marginTop: 6,
+  marginBottom: 6
+};
+var SelectSquareItemStyle = {
+  width: 30,
+  height: 30,
+  margin: 4,
+  backgroundColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.hm_green
+};
+var SelectTextItemStyle = {
+  minWidth: 44,
+  height: 24,
+  margin: 6,
+  fontSize: 12,
+  color: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black,
+  textAlign: 'center'
+};
+var SelectColorTextItemStyle = {
+  minWidth: 44,
+  height: 24,
+  marginTop: 6,
+  marginBottom: 6,
+  marginLeft: 2,
+  marginRight: 2,
+  backgroundColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.hm_green + '20',
+  fontSize: 12,
+  color: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black,
+  textAlign: 'center'
+};
+var ItemBorderStyle = {
+  borderWidth: 2,
+  borderColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black
+};
+var ItemBorderLeftStyle = {
+  borderLeftWidth: 2,
+  borderLeftColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black
+};
+var ItemBorderTopStyle = {
+  borderTopWidth: 2,
+  borderTopColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black
+};
+var ItemBorderRightStyle = {
+  borderRightWidth: 2,
+  borderRightColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black
+};
+var ItemBorderBottomStyle = {
+  borderBottomWidth: 2,
+  borderBottomColor: _CommonColor__WEBPACK_IMPORTED_MODULE_0__.Color.black
+};
+var ItemShadowStyle = {
+  shadow: '2 2 5 #000000'
+};
+var Style = {
+  FullParentStyle,
+  CenterStyle,
+  SmallTextStyle,
+  RectItemStyle,
+  SquareItemStyle,
+  RoundItemStyle,
+  CircleItemStyle,
+  SelectColorItemStyle,
+  SelectSquareItemStyle,
+  SelectTextItemStyle,
+  SelectColorTextItemStyle,
+  ItemBorderStyle,
+  ItemBorderLeftStyle,
+  ItemBorderTopStyle,
+  ItemBorderRightStyle,
+  ItemBorderBottomStyle,
+  ItemShadowStyle
+};
+
+/***/ }),
+
 /***/ "@hummer/hummer-front":
 /*!*****************************!*\
   !*** external "__GLOBAL__" ***!
@@ -116,6 +275,33 @@ function _createSuper(Derived) {
 
 /***/ }),
 
+/***/ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\defineProperty.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\defineProperty.js ***!
+  \***************************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _defineProperty)
+/* harmony export */ });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+/***/ }),
+
 /***/ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\getPrototypeOf.js":
 /*!***************************************************************************************************************************!*\
   !*** C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\getPrototypeOf.js ***!
@@ -188,6 +374,47 @@ function _isNativeReflectConstruct() {
   } catch (e) {
     return false;
   }
+}
+
+/***/ }),
+
+/***/ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\objectSpread2.js":
+/*!**************************************************************************************************************************!*\
+  !*** C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\objectSpread2.js ***!
+  \**************************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _objectSpread2)
+/* harmony export */ });
+/* harmony import */ var _defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defineProperty.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\defineProperty.js");
+
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    enumerableOnly && (symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    })), keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread2(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = null != arguments[i] ? arguments[i] : {};
+    i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+      (0,_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+      Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+    });
+  }
+
+  return target;
 }
 
 /***/ }),
@@ -336,12 +563,18 @@ var __webpack_exports__ = {};
   !*** ./src/index/index.ts ***!
   \****************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\classCallCheck.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\classCallCheck.js");
-/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\createClass.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\createClass.js");
-/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\inherits.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\inherits.js");
-/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createSuper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\createSuper.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\createSuper.js");
-/* harmony import */ var _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @hummer/hummer-front */ "@hummer/hummer-front");
-/* harmony import */ var _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_hummer_hummer_front__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\objectSpread2.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\objectSpread2.js");
+/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\classCallCheck.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\classCallCheck.js");
+/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\createClass.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\createClass.js");
+/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\inherits.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\inherits.js");
+/* harmony import */ var C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createSuper_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! C:\Users\Caj\AppData\Roaming\npm\node_modules\@hummer\cli\node_modules\@babel\runtime\helpers\esm\createSuper.js */ "C:\\Users\\Caj\\AppData\\Roaming\\npm\\node_modules\\@hummer\\cli\\node_modules\\@babel\\runtime\\helpers\\esm\\createSuper.js");
+/* harmony import */ var _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @hummer/hummer-front */ "@hummer/hummer-front");
+/* harmony import */ var _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _common_CommonStyle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../common/CommonStyle */ "./src/common/CommonStyle.ts");
+/* harmony import */ var _common_CommonColor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../common/CommonColor */ "./src/common/CommonColor.ts");
+
+
+
 
 
 
@@ -349,50 +582,58 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var RootView = /*#__PURE__*/function (_View) {
-  (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_2__["default"])(RootView, _View);
+  (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_inherits_js__WEBPACK_IMPORTED_MODULE_3__["default"])(RootView, _View);
 
-  var _super = (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createSuper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(RootView);
+  var _super = (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createSuper_js__WEBPACK_IMPORTED_MODULE_4__["default"])(RootView);
 
   function RootView() {
     var _this;
 
-    (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, RootView);
+    (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, RootView);
 
     _this = _super.call(this);
-    _this.style = {
-      width: '100%',
-      height: '100%',
-      alignItems: 'center',
-      justifyContent: 'center'
-    };
+    _this.style = (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])((0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _common_CommonStyle__WEBPACK_IMPORTED_MODULE_6__.Style.FullParentStyle), {}, {
+      backgroundColor: _common_CommonColor__WEBPACK_IMPORTED_MODULE_7__.Color.white
+    });
 
-    _this.initElement();
+    _this.addContentView();
 
     return _this;
   }
 
-  (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(RootView, [{
-    key: "initElement",
-    value: function initElement() {
-      this.appendText('~ Hello Hummer ~');
-    }
-  }, {
-    key: "appendText",
-    value: function appendText(message) {
-      var text = new _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_4__.Text();
-      text.style = {
-        fontSize: 20
+  (0,C_Users_Caj_AppData_Roaming_npm_node_modules_hummer_cli_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_2__["default"])(RootView, [{
+    key: "addContentView",
+    value: function addContentView() {
+      var contentLayout = new _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5__.Scroller();
+      contentLayout.style = {
+        width: '100%',
+        flexGrow: 1,
+        flexShrink: 1
       };
-      text.text = message;
-      this.appendChild(text);
+
+      for (var i = 0; i < 10; i++) {
+        var v = new _hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5__.Text();
+        v.text = i.toString();
+        v.style = {
+          width: '100%',
+          height: '100',
+          fontSize: 20,
+          textAlign: 'center',
+          color: _common_CommonColor__WEBPACK_IMPORTED_MODULE_7__.Color.black,
+          backgroundColor: i % 2 == 0 ? '#00FF0010' : '#FF000010'
+        };
+        contentLayout.appendChild(v);
+      }
+
+      this.appendChild(contentLayout);
     }
   }]);
 
   return RootView;
-}(_hummer_hummer_front__WEBPACK_IMPORTED_MODULE_4__.View); // 根页面渲染
+}(_hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5__.View); // 根页面渲染
 
 
-_hummer_hummer_front__WEBPACK_IMPORTED_MODULE_4__.Hummer.render(new RootView());
+_hummer_hummer_front__WEBPACK_IMPORTED_MODULE_5__.Hummer.render(new RootView());
 })();
 
 /******/ })()
